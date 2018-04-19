@@ -6,6 +6,7 @@ import kotlin.test.assertEquals
 class SampleTest {
     @Test
     fun testWelcome() {
+        println("testWelcom")
         welcome()
 
         // Example of test
@@ -16,7 +17,32 @@ class SampleTest {
 
     @Test
     fun testHello() {
+        println("testHello")
         hello()
         // TODO: implement to call hello function
     }
+
+    @Test
+    fun testFizzBuzz(){
+        println("testFizzbuzz")
+        fizzBuzz()
+    }
+
+    @Test
+    fun testLeapYear(){
+        println("testLeapyear")
+        if(leapYear(1600)){
+            println(true)
+        }else{
+            println(false)
+        }
+
+    }
+
+    @Test
+    fun testPower(){
+        println("testPower")
+        println(power(2, 10))
+    }
+
 }
