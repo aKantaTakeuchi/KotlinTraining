@@ -16,6 +16,7 @@ class SampleTest {
 
     @Test
     fun testHello() {
+        hello()
         // TODO: implement to call hello function
     }
 }
